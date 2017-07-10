@@ -11,6 +11,7 @@ Imports System.Text.RegularExpressions.Regex
 Public Class StringExtensions
 
     'creates url slug from passed string
+    ' From http://www.beansoftware.com/ASP.NET-FAQ/Create-Slug-From-Page-Title.aspx
     Public Shared Function ToSlug(ByVal SlugField As String) As String
         Dim Slug As String = SlugField.ToLower()
 
